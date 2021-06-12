@@ -1,8 +1,8 @@
 options:
 	prefix: &8[&dDex&cBan&8]
-	SoundBC: BLOCK_NOTE_BLOCK_PLING
-	SoundBC-Volume: 1
-	SoundBC-Pitch: 2
+	SoundBM: BLOCK_NOTE_BLOCK_PLING
+	SoundBM-Volume: 1
+	SoundBM-Pitch: 2
 
 command /dexban [<player>]:
 	aliases: /db, /dexb, /banmenu
@@ -25,7 +25,7 @@ command /dexban [<player>]:
 				close player's inventory
 				send "&6&l(!) &7Skript Help can be found on the official &eSpigot &7Resource <tooltip:&6Click to open the &eSpigot &6Resource><link:https://www.spigotmc.org/resources/dexban.92604/>&6&nhere." to player
 
-			play sound "{@SoundBC}" with volume {@SoundBC-Volume} and pitch {@SoundBC-Pitch}
+			play sound "{@SoundBM}" with volume {@SoundBM-Volume} and pitch {@SoundBM-Pitch}
 
 			# Categories
 			format gui slot 0 of player with glowing spectral arrow named "&a&nBan" with lore "&8Category: Bans" and "&0 " and "&b➤"
