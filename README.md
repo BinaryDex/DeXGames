@@ -9,11 +9,11 @@
 <p align="center">
     &nbsp;
     <a href="https://discord.gg/invitehere">
-        <img src="./assets/icons/other/discord-solid.svg/" width="25px" />
+        <img src="./images/discord.svg/" width="25px" />
     </a>
     &nbsp;
     <a href="https://twitter.com/HonestlyDex/">
-        <img src="./assets/icons/other/twitter-solid.svg/" width="25px" />
+        <img src="./images/twitter.svg/" width="25px" />
     </a>
     &nbsp;
     
